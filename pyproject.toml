@@ -1,0 +1,12 @@
+[project]
+name = "Brakeit"
+version = "1.0"
+description = "Get BrokenSource Monorepo easily"
+authors = [{name="Tremeschin"}]
+dependencies = [
+    "pygit2",
+    "poetry"
+]
+
+[project.scripts]
+brakeit = "brakeit.__main__:getBrokenSourceMonorepo"
