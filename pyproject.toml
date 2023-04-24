@@ -8,5 +8,8 @@ dependencies = [
     "poetry"
 ]
 
-[project.scripts]
-brakeit = "brakeit.__main__:getBrokenSourceMonorepo"
+[tool.poetry]
+name = "Brakeit"
+version = "1.0"
+description = "Get BrokenSource Monorepo easily"
+authors = ["Tremeschin"]
